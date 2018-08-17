@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>_01.ByteBank</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img1.png" />
+    <None Remove="img2.png" />
+    <None Remove="img3.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+1,Carmella,Dobell,cdobell0@joomla.org,16652.61,ativo
+2,Rosabelle,Molyneaux,rmolyneaux1@cafepress.com,4705.55,inativo
+3,Sissy,Dimic,sdimic2@livejournal.com,5850.91,inativo
+4,Orran,Gilby,ogilby3@ebay.com,31666.64,ativo
+5,Xylia,Sallans,xsallans4@reference.com,1710.72,inativo
+6,Artus,Fishleigh,afishleigh5@ucoz.ru,20230.21,ativo
+7,Bale,Davoren,bdavoren6@oaic.gov.au,46455.80,ativo
+8,Klarika,Macieiczyk,kmacieiczyk7@bigcartel.com,42855.67,ativo
+9,Mei,Ayton,mayton8@tamu.edu,20466.89,ativo
+10,Carleton,Pittaway,cpittaway9@freewebs.com,40396.40,inativo

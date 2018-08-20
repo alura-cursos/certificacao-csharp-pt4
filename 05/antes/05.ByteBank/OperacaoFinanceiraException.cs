@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _05.ByteBank
+namespace _06.ByteBank
 {
     public class OperacaoFinanceiraException : Exception
     {

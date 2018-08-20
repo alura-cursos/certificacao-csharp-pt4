@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace _05.ByteBank
+namespace _06.ByteBank
 {
     public class LeitorDeArquivo : IDisposable
     {

@@ -10,12 +10,6 @@ namespace _01.ByteBank
 
         private string codigoContrato;
 
-        public void RedefinirCodigoContrato(string codigoContrato)
-        {
-            //só deve aceitar o código se ele for válido
-            this.codigoContrato = codigoContrato;
-        }
-
         private bool ValidarCodigo(string codigoContrato)
         {
             bool codigoContratoValido = true;

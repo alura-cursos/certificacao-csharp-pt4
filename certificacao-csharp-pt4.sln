@@ -43,6 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ByteBank", "04\depois\04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ByteBank", "05\depois\05.ByteBank\05.ByteBank.csproj", "{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Habilidades medidas", "Habilidades medidas", "{8B893845-9AEE-415A-8442-0323EB2469AD}"
+	ProjectSection(SolutionItems) = preProject
+		Exame.md = Exame.md
+		img1.png = img1.png
+		img2.png = img2.png
+		img3.png = img3.png
+		img4.png = img4.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

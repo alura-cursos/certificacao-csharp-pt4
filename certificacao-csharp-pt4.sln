@@ -33,15 +33,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{016EA7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{5500B737-2E6B-45A9-BF7D-94E6F44EC978}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ByteBank", "01\depois\01.ByteBank\01.ByteBank.csproj", "{D76C4466-689E-4543-AE35-5EC188C076FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ByteBank_depois", "01\depois\01.ByteBank\01.ByteBank_depois.csproj", "{D76C4466-689E-4543-AE35-5EC188C076FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ByteBank", "02\depois\02.ByteBank\02.ByteBank.csproj", "{88A2C74C-A458-4D31-9B01-8F783B5AE24E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ByteBank_depois", "02\depois\02.ByteBank\02.ByteBank_depois.csproj", "{88A2C74C-A458-4D31-9B01-8F783B5AE24E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ByteBank", "03\depois\03.ByteBank\03.ByteBank.csproj", "{E79E37C3-7365-4733-8077-4756FB2FD9B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ByteBank_depois", "03\depois\03.ByteBank\03.ByteBank_depois.csproj", "{E79E37C3-7365-4733-8077-4756FB2FD9B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ByteBank", "04\depois\04.ByteBank\04.ByteBank.csproj", "{EC67A2A8-DE48-47E4-92EA-270BE5219579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ByteBank_depois", "04\depois\04.ByteBank\04.ByteBank_depois.csproj", "{EC67A2A8-DE48-47E4-92EA-270BE5219579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ByteBank", "05\depois\05.ByteBank\05.ByteBank.csproj", "{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ByteBank_depois", "05\depois\05.ByteBank\05.ByteBank_depois.csproj", "{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Habilidades medidas", "Habilidades medidas", "{8B893845-9AEE-415A-8442-0323EB2469AD}"
 	ProjectSection(SolutionItems) = preProject
@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Habilidades medidas", "Habi
 		img3.png = img3.png
 		img4.png = img4.png
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ByteBank", "01\antes\01.ByteBank\01.ByteBank.csproj", "{CCDE257D-B04D-40A8-A5A4-476EA7B21B91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +80,10 @@ Global
 		{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDE257D-B04D-40A8-A5A4-476EA7B21B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDE257D-B04D-40A8-A5A4-476EA7B21B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDE257D-B04D-40A8-A5A4-476EA7B21B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDE257D-B04D-40A8-A5A4-476EA7B21B91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{E79E37C3-7365-4733-8077-4756FB2FD9B5} = {92219AB3-4518-4C59-A470-AED60F12049B}
 		{EC67A2A8-DE48-47E4-92EA-270BE5219579} = {016EA7CB-F74B-406A-AAE7-D6C3C009CE9B}
 		{F34EFC75-99B3-4EA4-86E1-F3C5C47540C5} = {5500B737-2E6B-45A9-BF7D-94E6F44EC978}
+		{CCDE257D-B04D-40A8-A5A4-476EA7B21B91} = {EA38ACAA-C5D7-4BC3-A0B4-278C801CF538}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF8867F2-5852-4645-9DD8-568AFBDF1D72}

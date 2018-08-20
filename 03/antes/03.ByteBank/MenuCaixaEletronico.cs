@@ -14,7 +14,7 @@ namespace _03.ByteBank
             var itensMenu = new ItemMenu[]
             {
                 Saque,
-                ExtratoESaldo,
+                ExtratoOuSaldo,
                 Depositos,
                 Transferencias,
                 Emprestimo,
@@ -92,7 +92,7 @@ namespace _03.ByteBank
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
 
-        private void ExtratoESaldo()
+        private void ExtratoOuSaldo()
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }

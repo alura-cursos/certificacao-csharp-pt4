@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
 
 namespace _04.ByteBank
@@ -18,6 +20,50 @@ namespace _04.ByteBank
 
             //MenuCaixaEletronico menu = new MenuCaixaEletronico();
             //menu.Executar();
+        }
+
+
+        private static IList<Conta> GetContasEspeciais()
+        {
+            IList<Cliente> clientes = GetClientes();
+            IList<Conta> contasEspeciais = new Collection<Conta>();
+
+            //TAREFA: RETORNAR UMA LISTA COM 
+            //TODAS AS CONTAS COM MAIS DE 5 MIL DE SALDO
+
+            return contasEspeciais;
+        }
+
+        private static bool ExisteContaComMaisDe50000()
+        {
+            IList<Cliente> clientes = GetClientes();
+
+            //TAREFA: RETORNAR VERDADEIRO OU FALSO
+            //INDICANDO SE EXISTE CONTA COM MAIS DE 50 MIL DE SALDO
+
+            return false;
+        }
+
+        private static IList<Cliente> GetClientes()
+        {
+            IList<Cliente> clientes = new List<Cliente>();
+            IList<Conta> contas1 = new List<Conta>
+            {
+                new Conta(1000m, 2, 0.025m),
+                new Conta(30000m, 4, 0.045m),
+                new Conta(50000m, 6, 0.045m)
+            };
+
+            clientes.Add(new Cliente("José", "da Silva", contas1));
+
+            IList<Conta> contas2 = new List<Conta>
+            {
+                new Conta(400m, 2, 0.025m),
+                new Conta(3000m, 4, 0.045m),
+                new Conta(75000m, 6, 0.045m)
+            };
+            clientes.Add(new Cliente("Maria", "de Souza", contas2));
+            return clientes;
         }
 
         private static int GetFatorial(int numero)
@@ -41,5 +87,31 @@ namespace _04.ByteBank
 
             return fatorial;
         }
+    }
+
+    class Conta
+    {
+        public Conta(decimal saldo, int periodo, decimal juros)
+        {
+            Periodo = periodo;
+            Saldo = saldo;
+            Juros = juros;
+        }
+        public decimal Saldo { get; set; }
+        public decimal Juros { get; set; }
+        public int Periodo { get; set; }
+    }
+
+    class Cliente
+    {
+        public Cliente(string nome, string sobrenome, IList<Conta> contas)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Contas = contas;
+        }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
+        public IList<Conta> Contas { get; set; }
     }
 }

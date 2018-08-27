@@ -12,12 +12,37 @@ namespace Microsoft.Samples.ExpectedExceptions
     {
         static void Main()
         {
+            DemonstraCaminhoFeliz();
             DemonstraCommunicationException();
             DemonstraTimeoutException();
 
             Console.WriteLine();
             Console.WriteLine("Tecle <ENTER> para fechar o cliente.\r\n");
             Console.ReadLine();
+        }
+
+        static void DemonstraCaminhoFeliz()
+        {
+            // Cria o cliente
+            ClienteCalculadora cliente = new ClienteCalculadora();
+
+            // Chama a operação Somar do serviço.
+            double valor1 = 100.00D;
+            double valor2 = 15.99D;
+            double resultado = cliente.Somar(valor1, valor2);
+            Console.WriteLine("Somar({0},{1}) = {2}\r\n", valor1, valor2, resultado);
+
+            // Chama a operação Dividir do serviço.
+            valor1 = 22.00D;
+            valor2 = 7.00D;
+            resultado = cliente.Dividir(valor1, valor2);
+            Console.WriteLine("Dividir({0},{1}) = {2}\r\n", valor1, valor2, resultado);
+
+            // Fechamos o cliente "graciosamente", 
+            // para que o canal feche sem problemas e limpe/finalize os recursos.
+            cliente.Close();
+
+            Console.WriteLine("O serviço retornou todos os resultados com sucesso.\r\n");
         }
 
         static void DemonstraCommunicationException()

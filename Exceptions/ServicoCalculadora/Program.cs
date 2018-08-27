@@ -21,37 +21,36 @@ namespace ConsoleApp1
     //5) rodar o projeto ClienteCalculadora.
 
     [ServiceContract(Namespace = "http://Microsoft.Samples.ExpectedExceptions")]
-    public interface ICalculator
+    public interface ICalculadora
     {
         [OperationContract]
-        double Add(double n1, double n2);
+        double Somar(double n1, double n2);
         [OperationContract]
-        double Subtract(double n1, double n2);
+        double Subtrair(double n1, double n2);
         [OperationContract]
-        double Multiply(double n1, double n2);
+        double Multiplicar(double n1, double n2);
         [OperationContract]
-        double Divide(double n1, double n2);
+        double Dividir(double n1, double n2);
     }
 
-    // Service class which implements the service contract.
-    public class CalculatorService : ICalculator
+    public class CalculadoraService : ICalculadora
     {
-        public double Add(double n1, double n2)
+        public double Somar(double n1, double n2)
         {
             return n1 + n2;
         }
 
-        public double Subtract(double n1, double n2)
+        public double Subtrair(double n1, double n2)
         {
             return n1 - n2;
         }
 
-        public double Multiply(double n1, double n2)
+        public double Multiplicar(double n1, double n2)
         {
             return n1 * n2;
         }
 
-        public double Divide(double n1, double n2)
+        public double Dividir(double n1, double n2)
         {
             return n1 / n2;
         }
@@ -61,28 +60,28 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Uri baseAddress = new Uri("http://localhost:8080/Calculator");
+            Uri baseAddress = new Uri("http://localhost:8080/Calculadora");
 
-            // Create the ServiceHost.
-            using (ServiceHost host = new ServiceHost(typeof(CalculatorService), baseAddress))
+            // Cria o ServiceHost.
+            using (ServiceHost host = new ServiceHost(typeof(CalculadoraService), baseAddress))
             {
-                // Enable metadata publishing.
+                // Habilita a publicação de metadata.
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                 smb.HttpGetEnabled = true;
                 smb.MetadataExporter.PolicyVersion = PolicyVersion.Policy15;
                 host.Description.Behaviors.Add(smb);
 
-                // Open the ServiceHost to start listening for messages. Since
-                // no endpoints are explicitly configured, the runtime will create
-                // one endpoint per base address for each service contract implemented
-                // by the service.
+                // Abre o ServiceHost para começar a ouvir as mensages. Como
+                // nenhum endpoint é explicitamente configurado, o runtime irá criar
+                // um endpoint por endereço base para cada contrato de serviço implementado implemented
+                // pelo serviço.
                 host.Open();
 
-                Console.WriteLine("The service is ready at {0}", baseAddress);
-                Console.WriteLine("Press <Enter> to stop the service.");
+                Console.WriteLine("O serviço está pronto no serviço {0}\r\n", baseAddress);
+                Console.WriteLine("Tecle <Enter> para parar o serviço.\r\n");
                 Console.ReadLine();
 
-                // Close the ServiceHost.
+                // Fecha o ServiceHost.
                 host.Close();
             }
         }

@@ -59,7 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="client.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="generatedClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

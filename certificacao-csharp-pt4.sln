@@ -68,6 +68,43 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCalculadora", "Excep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoCalculadora", "Exceptions\ServicoCalculadora\ServicoCalculadora.csproj", "{B583826F-E083-4CA6-9726-6B94898F939B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagens", "Imagens", "{561F39E8-59E1-4119-94F0-B4F0DDCB0832}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.if-else", "01.if-else", "{45955B76-3377-4D5A-BE83-BA603A73F5C0}"
+	ProjectSection(SolutionItems) = preProject
+		Imagens\01.if-else\img1.png = Imagens\01.if-else\img1.png
+		Imagens\01.if-else\img10.png = Imagens\01.if-else\img10.png
+		Imagens\01.if-else\img2.png = Imagens\01.if-else\img2.png
+		Imagens\01.if-else\img3.png = Imagens\01.if-else\img3.png
+		Imagens\01.if-else\img4.png = Imagens\01.if-else\img4.png
+		Imagens\01.if-else\img5.png = Imagens\01.if-else\img5.png
+		Imagens\01.if-else\img6.png = Imagens\01.if-else\img6.png
+		Imagens\01.if-else\img7.png = Imagens\01.if-else\img7.png
+		Imagens\01.if-else\img8.png = Imagens\01.if-else\img8.png
+		Imagens\01.if-else\img9.png = Imagens\01.if-else\img9.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.operadores-expressoes", "01.operadores-expressoes", "{399B806B-1AD9-4FC5-99CD-DFA77B1C9758}"
+	ProjectSection(SolutionItems) = preProject
+		explicação.md = explicação.md
+		Imagens\01.operadores-expressoes\img1.png = Imagens\01.operadores-expressoes\img1.png
+		Imagens\01.operadores-expressoes\img10.png = Imagens\01.operadores-expressoes\img10.png
+		Imagens\01.operadores-expressoes\img11.png = Imagens\01.operadores-expressoes\img11.png
+		Imagens\01.operadores-expressoes\img12.png = Imagens\01.operadores-expressoes\img12.png
+		Imagens\01.operadores-expressoes\img13.png = Imagens\01.operadores-expressoes\img13.png
+		Imagens\01.operadores-expressoes\img14.png = Imagens\01.operadores-expressoes\img14.png
+		Imagens\01.operadores-expressoes\img15.png = Imagens\01.operadores-expressoes\img15.png
+		Imagens\01.operadores-expressoes\img16.png = Imagens\01.operadores-expressoes\img16.png
+		Imagens\01.operadores-expressoes\img2.png = Imagens\01.operadores-expressoes\img2.png
+		Imagens\01.operadores-expressoes\img3.png = Imagens\01.operadores-expressoes\img3.png
+		Imagens\01.operadores-expressoes\img4.png = Imagens\01.operadores-expressoes\img4.png
+		Imagens\01.operadores-expressoes\img5.png = Imagens\01.operadores-expressoes\img5.png
+		Imagens\01.operadores-expressoes\img6.png = Imagens\01.operadores-expressoes\img6.png
+		Imagens\01.operadores-expressoes\img7.png = Imagens\01.operadores-expressoes\img7.png
+		Imagens\01.operadores-expressoes\img8.png = Imagens\01.operadores-expressoes\img8.png
+		Imagens\01.operadores-expressoes\img9.png = Imagens\01.operadores-expressoes\img9.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +186,8 @@ Global
 		{C8E7AE9C-8CB0-40AA-9910-02E5305ACF7B} = {30916409-96FC-4757-9A95-860971FA6DD8}
 		{F6D8FC2E-62D0-4554-AC3E-1964042590E3} = {6898B1BA-134D-4C31-BAC6-D49F0AFB4DF1}
 		{B583826F-E083-4CA6-9726-6B94898F939B} = {6898B1BA-134D-4C31-BAC6-D49F0AFB4DF1}
+		{45955B76-3377-4D5A-BE83-BA603A73F5C0} = {561F39E8-59E1-4119-94F0-B4F0DDCB0832}
+		{399B806B-1AD9-4FC5-99CD-DFA77B1C9758} = {561F39E8-59E1-4119-94F0-B4F0DDCB0832}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF8867F2-5852-4645-9DD8-568AFBDF1D72}

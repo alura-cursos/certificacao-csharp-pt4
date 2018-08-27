@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Habilidades medidas", "Habilidades medidas", "{8B893845-9AEE-415A-8442-0323EB2469AD}"
+	ProjectSection(SolutionItems) = preProject
+		Exame.md = Exame.md
+		img1.png = img1.png
+		img2.png = img2.png
+		img3.png = img3.png
+		img4.png = img4.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{6898B1BA-134D-4C31-BAC6-D49F0AFB4DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCalculadora", "Exceptions\ClienteCalculadora\ClienteCalculadora.csproj", "{F6D8FC2E-62D0-4554-AC3E-1964042590E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoCalculadora", "Exceptions\ServicoCalculadora\ServicoCalculadora.csproj", "{B583826F-E083-4CA6-9726-6B94898F939B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B583826F-E083-4CA6-9726-6B94898F939B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B583826F-E083-4CA6-9726-6B94898F939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B583826F-E083-4CA6-9726-6B94898F939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B583826F-E083-4CA6-9726-6B94898F939B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3} = {6898B1BA-134D-4C31-BAC6-D49F0AFB4DF1}
+		{B583826F-E083-4CA6-9726-6B94898F939B} = {6898B1BA-134D-4C31-BAC6-D49F0AFB4DF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF8867F2-5852-4645-9DD8-568AFBDF1D72}
+	EndGlobalSection
+EndGlobal

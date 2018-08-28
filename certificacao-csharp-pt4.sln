@@ -105,6 +105,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.operadores-expressoes", 
 		Imagens\01.operadores-expressoes\img9.png = Imagens\01.operadores-expressoes\img9.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.compilacao-condicional", "02.compilacao-condicional", "{8A5F6617-E09A-4E18-8977-E37CC0E387F0}"
+	ProjectSection(SolutionItems) = preProject
+		explicação2.md = explicação2.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -188,6 +193,7 @@ Global
 		{B583826F-E083-4CA6-9726-6B94898F939B} = {6898B1BA-134D-4C31-BAC6-D49F0AFB4DF1}
 		{45955B76-3377-4D5A-BE83-BA603A73F5C0} = {561F39E8-59E1-4119-94F0-B4F0DDCB0832}
 		{399B806B-1AD9-4FC5-99CD-DFA77B1C9758} = {561F39E8-59E1-4119-94F0-B4F0DDCB0832}
+		{8A5F6617-E09A-4E18-8977-E37CC0E387F0} = {561F39E8-59E1-4119-94F0-B4F0DDCB0832}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF8867F2-5852-4645-9DD8-568AFBDF1D72}
